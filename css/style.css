@@ -89,13 +89,86 @@ a:hover {
     margin: 0px 15px 0px 15px;
 }
 
-.inner-banner {
+.banner {
+    height: 600px;
+    background: url("../banner.png");
+    background-size: cover;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner .banner-content {
+color: var(--white);
+width: 100%;
+top: 0;
+left: 0%;
+display: flex;
+align-items: center;
+}
+
+/* .banner .banner-content .banner-container{
+width: 136.8rem;
+margin: auto;
+position: relative;
+padding: 0 2rem;
+}
+
+.banner .banner-content .banner-container .inner-content{
+width: 42%;
+}
+
+.banner .banner-content h1 {
+font-size: 5rem;
+line-height: 5.5rem;
+} */
+
+/* .inner-banner {
     width: 100%;
     height: 70vh;
-    background: var(--blue);
+    background: var(--grey);
 }
 
 .banner-container{
     background: var(--black);
     padding: 20px;
+} */
+
+#products_section{
+    height: 600px;
+}
+
+.product-heading{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 25px 0px ;
+}
+
+.product-content{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 20px 200px;
+}
+
+.product-content-1,
+.product-content-2,
+.product-content-3,
+.product-content-4 {
+    width: 24%;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--blue);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
 }
